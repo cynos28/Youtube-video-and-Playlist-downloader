@@ -38,7 +38,7 @@
      <li> After that run <code> python setup.py build  </code></li>
      <li> Check Build folder</li>
  </ol>
-Inside Build folder 
+
  
 
 </body>
