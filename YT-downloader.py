@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import filedialog
 from pytube import YouTube, Playlist
+import webbrowser
 
 def on_progress(stream, chunk, bytes_remaining):
     global current_video_title
@@ -106,6 +107,12 @@ total_videos_label.pack()
 download_text = Text(window, height=10, width=60, wrap=WORD)
 download_text.pack(pady=10)
 download_text.configure(state='disabled')
+
+# Add label for creator's information and hyperlink
+creator_label = Label(window, text="Created by Cynos28")
+creator_label.pack(pady=5)
+creator_label.bind("<Button-1>", lambda event: webbrowser.open("https://github.com/cynos28"))
+creator_label.config(cursor="hand2", fg="blue", underline=True)
 
 # Global variable to store the current video title
 current_video_title = ""
