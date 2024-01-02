@@ -36,6 +36,10 @@
      <li>Open cmd inside this folder</li>
      <li> Run this code <code> pip install cx-Freeze </code></li>
      <li> After that run <code> python setup.py build  </code></li>
+     <li> Check Build folder</li>
+ </ol>
+Inside Build folder 
+ 
 
 </body>
 </html>
