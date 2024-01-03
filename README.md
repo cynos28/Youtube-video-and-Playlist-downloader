@@ -32,7 +32,7 @@
 
 <h2>For exe file </h2>
  <ol>
-     <li>Move these files(setup.py, YT-downloader.py" in to one folder</li>
+     <li>Move these files(setup.py, YT-downloader.py)in to one folder</li>
      <li>Open cmd inside this folder</li>
      <li> Run this code <code> pip install cx-Freeze </code></li>
      <li> After that run <code> python setup.py build  </code></li>
