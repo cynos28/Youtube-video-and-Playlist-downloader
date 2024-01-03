@@ -108,7 +108,7 @@ download_text = Text(window, height=10, width=60, wrap=WORD)
 download_text.pack(pady=10)
 download_text.configure(state='disabled')
 
-# Add label for creator's information and hyperlink
+
 creator_label = Label(window, text="Created by Cynos28")
 creator_label.pack(pady=5)
 creator_label.bind("<Button-1>", lambda event: webbrowser.open("https://github.com/cynos28"))
